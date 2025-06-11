@@ -1,7 +1,6 @@
 #include "raylib.h"
 
-int main(void)
-{
+int main(void) {
     // Window dimensions
     const int screenWidth = 800;
     const int screenHeight = 450;
@@ -13,8 +12,7 @@ int main(void)
     SetTargetFPS(60);
 
     // Game loop
-    while (!WindowShouldClose())
-    {
+    while (!WindowShouldClose()) {
         // Drawing
         BeginDrawing();
         ClearBackground(RAYWHITE);
